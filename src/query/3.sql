@@ -1,0 +1,1 @@
+SELECT idViewer,COUNT(idViewer)  FROM tickets GROUP BY idViewer HAVING COUNT(idViewer) > 10 and QUARTER(CURTIME());

@@ -1,0 +1,2 @@
+SELECT v.Name,t.idViewer,t.Date,v.Birthdate FROM viewer v INNER JOIN tickets t ON v.idViewer=t.idViewer
+WHERE MONTH(v.Birthdate) = MONTH(t.Date) AND DAYOFMONTH(v.Birthdate) - DAYOFMONTH(t.Date) BETWEEN -3 AND 3;

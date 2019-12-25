@@ -1,0 +1,1 @@
+SELECT idViewer, price, Date FROM tickets WHERE idFilm = 3 AND price > 500 AND DATE_ADD( CURDATE(), INTERVAL -30 DAY )

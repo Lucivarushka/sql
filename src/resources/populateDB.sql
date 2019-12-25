@@ -1,0 +1,30 @@
+insert into `cinematickets`.`viewer` VALUES (1,'Jack','1988-09-01');
+insert into `cinematickets`.`viewer` VALUES (2,'Polly','1999-11-11');
+insert into `cinematickets`.`viewer` VALUES (3,'Regina','1997-11-10');
+insert into `cinematickets`.`viewer` VALUES (4,'Pol','1990-11-11');
+insert into `cinematickets`.`viewer` VALUES (5,'Luck','1987-11-07');
+insert into `cinematickets`.`viewer` VALUES (6,'Kate','1987-01-12');
+insert into `cinematickets`.`viewer` VALUES (7,'Lion','1982-04-28');
+insert into `cinematickets`.`viewer` VALUES (8,'Anna','1985-08-21');
+insert into `cinematickets`.`viewer` VALUES (9,'Lena','1985-11-11');
+insert into `cinematickets`.`viewer` VALUES (10,'Max','1985-11-06');
+
+insert into `cinematickets`.`films` VALUES (1,'Nine','Thriller');
+insert into `cinematickets`.`films` VALUES (2,'First Man','Action');
+insert into `cinematickets`.`films` VALUES (3,'Searching','Drama');
+insert into `cinematickets`.`films` VALUES (4,'Lady Bird','Comedy');
+insert into `cinematickets`.`films` VALUES (5,'Black Panther','Adventure');
+
+insert into `cinematickets`.`tickets` VALUES (1,'2019-11-03','VIP',500,5,3);
+insert into `cinematickets`.`tickets` VALUES (2,'2019-08-13','VIP',700,1,7);
+insert into `cinematickets`.`tickets` VALUES (3,'2019-10-10','ECONOMY',300,1,1);
+insert into `cinematickets`.`tickets` VALUES (4,'2019-11-12','VIP',900,3,2);
+insert into `cinematickets`.`tickets` VALUES (5,'2019-11-19','ECONOMY',500,5,3);
+insert into `cinematickets`.`tickets` VALUES (6,'2019-10-04','VIP',900,3,8);
+insert into `cinematickets`.`tickets` VALUES (7,'2019-11-03','VIP',500,5,6);
+insert into `cinematickets`.`tickets` VALUES (8,'2019-09-07','ECONOMY',500,5,2);
+insert into `cinematickets`.`tickets` VALUES (9,'2019-10-10','ECONOMY',500,5,3);
+insert into `cinematickets`.`tickets` VALUES (10,'2019-09-24','VIP',800,2,4);
+insert into `cinematickets`.`tickets` VALUES (11,'2019-11-29','VIP',900,4,5);
+insert into `cinematickets`.`tickets` VALUES (12,'2019-11-03','VIP',900,1,10);
+insert into `cinematickets`.`tickets` VALUES (13,'2019-11-01','VIP',900,4,9);
